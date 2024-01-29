@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh; /* Set body height to 100% of viewport height */
+        background-color: rgb(14, 14, 14);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      img {
+        max-width: 100%;
+
+        transition: background-color 300ms;
+      }
+
+      @media (max-width: 600px) {
+        img {
+          margin-top: 5vh; /* Adjust margin for smaller screens */
+        }
+      }
+      @media (max-width: 100px) {
+        img {
+          margin-top: 1vh; /* Adjust margin for smaller screens */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://images01.nicepagecdn.com/page/11/02/css-template-preview-110226.webp"
+    />
+  </body>
+</html>
